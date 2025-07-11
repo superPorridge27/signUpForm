@@ -27,16 +27,65 @@ h1 {
 .right {
     display: flex;
     flex-direction: column;
+    width: 65vw;
+    background-color: #fafafa;
 }
 
 .first {
     height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 2vw;
 }
 
 .second {
     height: 33vh;
+    padding-left: 2vw;
+    background-color: white;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.formRight {
+    margin-left: 10%;
+}
+
+.form-divs {
+    margin-top: 3%;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    /* background-color: #f0f0f0; */
+    border-color: 1px solid gray;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 .third {
     height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2vw;
 }

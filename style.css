@@ -1,17 +1,42 @@
-.boxLeft {
-    position:relative;
-    display: inline-block;
-    background-image: url('https://picsum.photos/400/400');
-    width: 40%;
-    height: 40vh;
+@font-face {
+  font-family: Norse-Bold;
+  src: url(../fonts/Norse-Bold.otf);
 }
 
-.boxRight {
-    position: relative;
-    display: inline-block;
-    /* width: 60%; */
+h1 {
+  font-family: Norse-Bold, sans-serif;
 }
 
-.centerContent {
-    text-align: center;
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.left {
+    background-image: url(../signUpForm/images/photo-1585202900225-6d3ac20a6962.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35vw;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    height: 33vh;
+}
+
+.second {
+    height: 33vh;
+}
+
+.third {
+    height: 33vh;
 }
